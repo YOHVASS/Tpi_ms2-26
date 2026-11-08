@@ -23,14 +23,14 @@ conservando su comportamiento externo.
 | `estado-refactorizado` (alias `estadorefactorizado`) | Versión final con code review y documentación |
 
 > **Nota sobre el historial.** Para coordinar el trabajo en orden
-> (Yohanna → Gino → Natalia) se preparó, con apoyo de IA, una guía de ejecución
+> (Yohanna → Gino → Natalia) se preparó, con apoyo de IA 
 > y un kit con una instantánea del código de cada etapa. En el primer commit ese
 > kit se subió junto con la versión base, dentro de la carpeta `pasos/`, por eso
 > el tag `estado-inicial` contiene esas carpetas. El sistema base de ese tag es
 > `pasos/app.py`. Cada integrante aplicó su etapa en commits propios, verificando
 > el golden master antes de cada uno. En `etapa-docs` el proyecto se movió a la
-> raíz y se quitaron las instantáneas; la guía se conserva en
-> [`docs/proceso/`](docs/proceso/GUIA_EJECUCION.md) como evidencia del proceso.
+> raíz y se quitaron las instantáneas
+> 
 
 ## Integrantes y aporte en el repositorio
 

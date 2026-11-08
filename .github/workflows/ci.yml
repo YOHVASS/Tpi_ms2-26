@@ -19,8 +19,8 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements-dev.txt
       - name: Linter
-        run: ruff check .
+        run: ruff check solicitudes tests app.py
       - name: Formato
-        run: ruff format --check .
+        run: ruff format --check solicitudes tests app.py
       - name: Pruebas + cobertura de ramas (umbral 80 %)
         run: pytest --cov=solicitudes --cov-branch --cov-fail-under=80

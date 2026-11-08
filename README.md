@@ -19,7 +19,18 @@ conservando su comportamiento externo.
 | `etapa-diagnostico` | Golden master + diagnóstico de 13 code smells y 6 defectos |
 | `etapa-refactoring` | Refactorings R-01..R-04 (SOLID y Clean Code) |
 | `etapa-pruebas` | Pruebas unitarias/contrato/regresión + CI |
+| `etapa-docs` | Proyecto reorganizado en la raíz del repositorio y documentación final |
 | `estado-refactorizado` (alias `estadorefactorizado`) | Versión final con code review y documentación |
+
+> **Nota sobre el historial.** Para coordinar el trabajo en orden
+> (Yohanna → Gino → Natalia) se preparó, con apoyo de IA, una guía de ejecución
+> y un kit con una instantánea del código de cada etapa. En el primer commit ese
+> kit se subió junto con la versión base, dentro de la carpeta `pasos/`, por eso
+> el tag `estado-inicial` contiene esas carpetas. El sistema base de ese tag es
+> `pasos/app.py`. Cada integrante aplicó su etapa en commits propios, verificando
+> el golden master antes de cada uno. En `etapa-docs` el proyecto se movió a la
+> raíz y se quitaron las instantáneas; la guía se conserva en
+> [`docs/proceso/`](docs/proceso/GUIA_EJECUCION.md) como evidencia del proceso.
 
 ## Integrantes y aporte en el repositorio
 
@@ -34,8 +45,8 @@ conservando su comportamiento externo.
 - Python 3.10 o superior (sin dependencias en tiempo de ejecución).
 
 ```bash
-git clone <url-del-repositorio>
-cd gestion-solicitudes
+git clone https://github.com/YOHVASS/Tpi_ms2-26.git
+cd Tpi_ms2-26
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements-dev.txt                 # solo para pruebas y análisis
 ```

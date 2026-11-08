@@ -22,7 +22,7 @@ conservando su comportamiento externo.
 | `etapa-docs` | Proyecto reorganizado en la raíz del repositorio y documentación final |
 | `estado-refactorizado` (alias `estadorefactorizado`) | Versión final con code review y documentación |
 
-> **Nota sobre el historial.** Para coordinar el trabajo en orden
+> **Nota importante** Para coordinar el trabajo en orden
 > (Yohanna → Gino → Natalia) se preparó, con apoyo de IA 
 > y un kit con una instantánea del código de cada etapa. En el primer commit ese
 > kit se subió junto con la versión base, dentro de la carpeta `pasos/`, por eso
